@@ -1,0 +1,41 @@
+{
+  "name": "ratbird",
+  "version": "0.0.0",
+  "description": "transport agnostic notification system for node",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/** -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/murder0tic/konduit-notifier.git"
+  },
+  "keywords": [
+    "notifications",
+    "mongoose",
+    "konduit"
+  ],
+  "author": "Gordon Hall <gordon@bitpay.com>",
+  "license": "LGPLv3",
+  "bugs": {
+    "url": "https://github.com/murder0tic/konduit-notifier/issues"
+  },
+  "homepage": "https://github.com/murder0tic/konduit-notifier",
+  "dependencies": {
+    "async": "^0.9.0",
+    "extend": "^2.0.0",
+    "handlebars": "^2.0.0",
+    "html-to-text": "^1.1.1",
+    "nodemailer": "^1.3.0",
+    "nodemailer-smtp-transport": "^0.1.13",
+    "request": "^2.51.0",
+    "twilio": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "sinon": "^1.12.2"
+  }
+}
